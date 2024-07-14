@@ -1,0 +1,165 @@
+header {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo-xbox {
+  width: 150px;
+  height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 40px;
+  border: 10px;
+  margin: 10px;
+}
+
+.links-encabezado {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+  font-size: larger;
+  font-weight: bold;
+  background-color: whitesmoke;
+  color: black;
+  margin-right: 20px;
+  margin: 10px;
+  border: 10px;
+}
+
+.introduccion {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex: auto;
+  background-color: black;
+  color: aliceblue;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.parrafo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border: 10px;
+}
+
+.texto.introduccion {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.texto.parrafo {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#xbox-juegos {
+  width: 600px;
+  height: auto;
+}
+
+.parrafo.resumen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: larger;
+  font-weight: bold;
+  color: black;
+}
+
+.parrafo.resumen.titulo {
+  font-family: "Gill Sans", "Gill Sans MT";
+  font-size: larger;
+  font-weight: bold;
+  display: flex;
+}
+.parrafo.resumen.parrafo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.imagen-resumen {
+  width: 200px;
+  height: 200px;
+}
+
+button {
+  background-color: #4caf50; /* Green */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  color: aliceblue;
+  padding: 5px;
+}
+
+.parrafo.final {
+  background-color: #4caf50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parrafo.resumen.final {
+  width: 500px;
+  height: auto;
+}
+
+.parrafo.final.autor {
+  font-family: "Gill Sans", "Gill Sans MT";
+  font-size: medium;
+  font-style: italic;
+}
+
+.parrafo.de.registro {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Gill Sans", "Gill Sans MT";
+    color: aliceblue;
+
+}
+
+.parrafo.azul.final {
+    background-color: blue;
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    color: blanchedalmond;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+.suscribirse {
+    display: flex;
+    flex-direction: column;
+}
+
+.suscribirse.resumen {
+        font-weight: normal;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+}
